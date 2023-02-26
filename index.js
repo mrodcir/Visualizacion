@@ -29,6 +29,7 @@ d3.json(
       .axes({ ticks: 'false' })
       .draw();
         });
+        
 //Gráfico de caja y bigotes. Mi tercer gráfico
 var visualization = d3plus
   .viz()
