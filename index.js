@@ -19,16 +19,16 @@ d3.json(
   "https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", 
   function(data){
     var visualization = d3plus
-     .viz()
-     .container("#viz2")
-     .data(data)
-     .type('bar')
-     .id('name')
-     .x('year')
-     .y('value')
-     .axes({ ticks: 'false' })
-     .draw();
-       });
+      .viz()
+      .container("#viz2")
+      .data(data)
+      .type('bar')
+      .id('name')
+      .x('year')
+      .y('value')
+      .axes({ ticks: 'false' })
+      .draw();
+        });
 //Gráfico de caja y bigotes. Mi tercer gráfico
 var visualization = d3plus
   .viz()
