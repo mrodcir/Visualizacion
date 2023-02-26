@@ -30,7 +30,7 @@ d3.json(
      .draw();
       });
 //Gráfico de caja y bigotes. Mi tercer gráfico
-  var visualization = d3plus
+var visualization = d3plus
    .viz()
    .container("#viz3")
    .data([
